@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+:focus {
+  outline: 0;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+input,
+textarea,
+button {
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+::-moz-selection {
+  background: #000;
+  text-shadow: none;
+  color: #fff;
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+  text-shadow: none;
+}
